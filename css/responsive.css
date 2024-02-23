@@ -1,0 +1,401 @@
+ @media (min-width:320px) and (max-width:575px) {
+
+    nav ul {
+        margin-top: 15px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    nav ul li a::after {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    nav ul li .dropdown {
+        top: 15px;
+        left: 108px;
+        background: #E4E1CE;
+        z-index: 5;
+    }
+
+    nav ul {
+        margin-top: 0px;
+    }
+
+    #banner-part h1 {
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        color: #203239;
+        line-height: 136%;
+        margin: 25px auto;
+    }
+
+    #banner-part p {
+        width: auto;
+        height: auto;
+    }
+
+    #banner-part .search { 
+        width: auto;
+    }
+
+    #banner-part .search input {
+        width: 100%;
+        height: 65px;
+        padding: 23px 0 23px 15px;
+    }
+
+    #banner-part .search i {
+        font-size: 0px;
+    }
+
+    #banner-part .search input::placeholder {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    #banner-part .search button {
+        font-size: 19px;
+        padding: 14px 113px;
+        top: 127%;
+        left: 1px;
+        transform: translateY(-29%);
+    }
+
+    #banner-part .box-item {
+        display: flex;
+        margin-top: 115px;
+        width: 100%;
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+    }
+
+    #banner-part .box-item .item {
+        width: 30%;
+        margin: 20px 30px -12px 20px;
+    }
+
+    #banner-part .box-item .item h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .box-item .item p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #banner-part .box {
+        margin-top: 0px;
+        height: 370px;
+        width: 320px;
+    }
+
+    #banner-part .box:hover img {
+        scale: 1;
+    }
+
+    #banner-part {
+        background: #EEEDDE;
+        padding-bottom: 65px;
+    }
+
+    #property-part h2 {
+        width: 100%;
+        height: 118px;
+        margin-top: 55px;
+        font-size: 27px;
+        line-height: 45px;
+    }
+
+    #property-part .item {
+        width: 100%;
+        border: 1px solid #EEEDDE;
+        margin-top: 60px;
+        margin-bottom: -25px;
+    }
+
+    #property-part .item a {
+	    margin-left: 30px;
+    }
+
+    #property-part .item a::after {
+	    width: 188px;
+    }
+
+    #property-part {
+	margin-bottom: 70px;
+    }
+
+
+    #residen-part {
+        width: 100%;
+        background: #EEEDDE;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        
+    }
+
+    #residen-part .title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #residen-part .img {
+        margin-top: 55px;
+    }
+
+    #residen-part .img .frontImg {
+        display: none;
+    }
+
+    #residen-part .img img {
+        width: 100%;
+    }
+
+    #residen-part h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 45px;
+        margin-top: 55px;
+    }
+
+    #residen-part p {
+        color: #203239b0;
+        line-height: 28px;
+        margin-bottom: 55px;
+    }
+
+    #residen-part a {
+        width: 100%;
+        font-size: 15px;
+        color: #fff;
+        padding: 13px 63px;
+        margin-bottom: 19px;
+        background: #203239;
+        margin-right: 0px;
+    }
+
+    #residen-part a:hover {
+        font-size: 15px;
+    }
+
+    #kota-part {
+        width: 100%;
+        padding-top: 55px;
+        padding-bottom: 45px;
+    }
+
+    #kota-part .title h2 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 40px;
+    }
+
+    #kota-part .icons{
+        display: none;
+    }
+
+    #kota-part img{
+        width: 100%;
+    }
+
+    #kota-part .item h4 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #kota-part .item p {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        color: #203239ba;
+        line-height: 26px;
+        margin-bottom: 32px;
+    }
+
+    #kami-part .boxes {
+        display: inline;
+    }
+
+    #kami-part .title h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        color: #203239;
+        line-height: 50px;
+    }
+
+    #kami-part .phone-box {
+        width: 100%;
+        height: auto;
+        margin-top: 39px;
+        margin-right: 0px;
+    }
+
+    #kami-part .icon-num {
+        margin-bottom: 10px;
+    }
+
+    #kami-part .icon-num i {
+        font-size: 22px;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-left: 30px;
+    }
+
+    #kami-part .phone-box a {
+        padding: 13px 60px;
+        border-radius: 5px;
+        background: rgba(255, 117, 39, 0.8);
+        color: #ffffff;
+        margin-left: 30px;
+    }
+
+    #kami-part .mail-box {
+        width: 100%;
+        height: auto;
+        padding: 24px 24px;
+        margin-top: 25px;
+        margin-right: 0px;
+    }
+
+    #kami-part .mail-box i {
+        font-size: 22px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-left: 30px;
+    }
+
+    #kami-part .mail-box a {
+        padding: 13px 60px;
+        border-radius: 5px;
+        background: rgba(255, 117, 39, 0.8);
+        color: #ffffff;
+        margin-left: 28px;
+    }
+
+    #kami-part .title-2 h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        color: #203239;
+        line-height: 45px;
+        margin-bottom: 48px;
+        margin-top: 48px;
+    }
+
+    #kami-part .sponsor .img1 {
+        width: 128px;
+        height: 85px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #kami-part .sponsor .img2 {
+        width: 160px;
+        height: 130px;
+        margin-top: -27px;
+        margin-left: 3px;
+    }
+
+    #footer-part {
+        width: 100%;
+        height: auto;
+        background: #203239;
+    }
+
+    #footer-part .logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .logo-link .media-link {
+        position: absolute;
+        top: 25px;
+        right: 0;
+    }
+
+    #footer-part .logo-link .media-link i {
+        font-size: 15px;
+        color: #EEEDDE;
+        margin: 0 5px;
+    }
+
+    
+/* ================================= */
+ }
+
+ @media (min-width:493px) and (max-width:851px) {
+    #banner-part .search button {
+        font-size: 19px;
+        padding: 14px 154px;
+        top: 124%;
+        left: 0px;
+        transform: translateY(-30%);
+    }
+
+    #banner-part .box-item .item {
+        width: 30%;
+        margin: 20px 30px 0px 20px;
+    }
+
+    #banner-part .box {
+        margin-top: 0px;
+        height: 495px;
+        width: 401px;
+    }
+
+    #banner-part .box img {
+        height: 100%;
+        width: 100%;
+        /* object-fit: cover; */
+        /* transition: all ease 0.5s; */
+    }
+
+
+    #property-part .item span{
+        margin-left: 38px;
+    }
+
+    #property-part .item a::after {
+        width: 195px;
+        margin-left: 35px;
+    }
+
+    #property-part .item:hover a::after {
+        width: 93%;
+    }
+
+    #residen-part a {
+        width: 100%;
+        font-size: 15px;
+        color: #fff;
+        padding: 13px 106px;
+        margin-bottom: 19px;
+        background: #203239;
+        margin-right: 0px;
+    }
+
+    #kami-part .icon-num {
+        margin-left: 43px;
+    }
+
+    #kami-part .phone-box a {
+        margin-left: 70px;
+    }
+
+    #kami-part .mail-box p{
+        margin-top: 7px;
+    }
+
+    #kami-part .mail-box a {
+        margin-left: 64px;
+    }
+
+    
+/* ================================= */
+ }
